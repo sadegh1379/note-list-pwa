@@ -1,0 +1,33 @@
+@font-face{
+  font-family: BYekan;
+  src: url('./fonts/BYekan.ttf');
+}
+
+*{
+  font-family: BYekan;
+  margin: 0;
+}
+html , body , #root{
+  margin: 0;
+  font-family: BYekan;
+  height: 100%;
+
+}
+
+input{
+  direction: rtl;
+}
+
+/* .app-container{
+  background-image: url('./img/minion.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  margin: 20px;
+} */
+
+
+
+.header-text{
+  position: relative;
+}

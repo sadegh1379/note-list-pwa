@@ -1,0 +1,57 @@
+/* text input styles */
+.add-btn{
+    background-color: white !important;
+    position: absolute ;
+    top : 63px;
+    right : 6px;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 50px !important;
+    
+    
+}
+.add-btn:focus{
+    outline: none;
+    color: black;
+    font-weight: bold;
+}
+.add-input{
+    border-radius: 50px !important;
+}
+
+/* note list style */
+.list-container{
+    padding: 10px;
+    overflow: scroll;
+    direction: rtl;
+    text-align: right;
+    margin: 10px 5px;
+    background-image: url('../img/minion.png');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    font-size: 15px;
+}
+
+.note-item{
+    background-color: honeydew;
+    padding: 15px 15px;
+    border-radius: 30px;
+    background: transparent;
+    border: 1px solid white;
+    box-shadow: 10px 10px 60px white inset;
+    margin: 5px 0;
+    overflow: scroll;
+    /* text-overflow: ellipsis; */
+    font-weight: bold;
+}
+
+.remove-btn{
+    position: relative;
+     /* left: 5px; */
+     /* top: -10px; */
+     color:red;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
